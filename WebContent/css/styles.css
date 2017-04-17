@@ -1,0 +1,51 @@
+* {
+	font-family: Calibri;
+	color : #484848;
+}
+
+body {
+	background-color: #DAEFF3;
+}
+
+fieldset {
+	border : 2px solid;
+	border-radius : 25px;
+	width: 20%;
+}
+
+.labels {
+	text-align: right;
+}
+
+label {
+	display : block;
+	text-align: left;
+	padding: 10px;
+}
+
+p,label {
+	font-size: 24px;
+}
+
+div {
+	margin : 10px;
+}
+
+#boto {
+	width: 100px;
+	height: 50px;
+	background: #69939F;
+	font-size: 24px;
+	color: aliceblue;
+	border-radius: 20px;
+	
+}
+
+span {
+	font-size : 24px;
+	font-weight : bold;
+	}
+	
+.login {
+	color : red;
+	}
