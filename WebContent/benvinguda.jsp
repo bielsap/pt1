@@ -9,12 +9,10 @@
 </head>
 <body>
 <% String benvinguda = "Benvingut ";
-String admin = "";
 String usuari = session.getAttribute("usuari").toString();
 if (usuari.equals("admin")) {
-	admin = "usuari administrador";
-}
-%>
-<span><%out.println(benvinguda);%></span><span class="login"><%out.println(admin);%></span>
+	benvinguda += "<span class='login'>usuari administrador</span>";
+}%>
+<span><%out.println(benvinguda);%></span>
 </body>
 </html>
